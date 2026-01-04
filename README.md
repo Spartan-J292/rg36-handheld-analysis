@@ -29,7 +29,7 @@ modified by the end user.
 - Queried bootloader variables
 
 ## Bootloader Output
-...
+```text
 (bootloader)    max-download-size: 0x8000000
 (bootloader)    partition-size:bmtpool: 1500000
 (bootloader)    partition-type:bmtpool: raw data
@@ -82,7 +82,7 @@ modified by the end user.
 (bootloader)    version: 0.5
 all: Done!!
 Finished. Total time: 0.039s
-...
+```
 
 ## Security Findings
 - Bootloader locked
@@ -105,4 +105,5 @@ Modification without OEM keys or hardware exploits is not possible.
 - “Open source” ≠ user-modifiable
 - SD slots do not imply SD boot
 - MediaTek LK + secure boot is a hard stop
+
 
